@@ -22,7 +22,7 @@ body {
 .main-containter {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background: #bdd;
+    background: #bdb;
     position: relative;
 
 }
@@ -36,34 +36,40 @@ aside.aside {
 aside.aside h4 {
     background: #cdc;
     padding: 12px;
-    margin: 0;
     
+}
+
+aside.aside ul {
+    text-align: right;
+    margin: 30px 0px auto 0px;
 }
 
 aside {
     background: #ccd;
-    padding; 20px;
 }
 
 p {
     text-indent: 20px;
+    padding: 10px;
+    margin: auto;
 }
 
 nav {
-    background: #eef;
+    background: #cdf;
     position: relative;
 }
 
 ul li {
     list-style-type: none;
-    padding: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 10px;
     margin: 0;
     display: inline-block;
 }
 
 
 main {
-    margin: 20px 10px 10px 10px;
+    margin: 30px 5px 5px 10px;
+    padding: 10px;
 }
 
 h3 {
@@ -84,6 +90,10 @@ h3 {
     width: 72%;
 }
 
+.footer-wrapper{
+    background: #ccd;
+}
+
 a {
     text-decoration: none;
     padding: 5px;
@@ -91,9 +101,14 @@ a {
 
 h1 {
     background: #ccd;
+    margin: 0;
     padding: 5px;
 }
 
 #author-note {
     background: #cbc;
+}
+
+aside ul li {
+    line-height: 0.5em;
 }
