@@ -23,17 +23,21 @@ body {
     display: grid;
     grid-template-columns: 4fr 1fr;
     background: #bdd;
-    grid-gap: 1em;
     position: relative;
 
 }
 
-p.aside {
+aside.aside {
     
-    padding: 10px;
     background: #bbc;
-    margin: 0;
 
+}
+
+aside.aside h4 {
+    background: #cdc;
+    padding: 12px;
+    margin: 0;
+    
 }
 
 aside {
@@ -57,14 +61,13 @@ ul li {
     display: inline-block;
 }
 
-main h4 {
-    background: #ccd;
-    padding: 6px;
-
-}
 
 main {
     margin: 20px 10px 10px 10px;
+}
+
+h3 {
+    padding: 10px;
 }
 
 .header-wrapper nav{
@@ -89,4 +92,8 @@ a {
 h1 {
     background: #ccd;
     padding: 5px;
+}
+
+#author-note {
+    background: #cbc;
 }
