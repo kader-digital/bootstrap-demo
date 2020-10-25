@@ -45,6 +45,7 @@ aside.aside ul {
 }
 
 aside {
+    padding: 15px;
     background: #ccd;
 }
 
@@ -62,13 +63,13 @@ nav {
 ul li {
     list-style-type: none;
     padding: 10px 20px 10px 10px;
-    margin: 0;
     display: inline-block;
 }
 
 
 main {
     margin: 30px 5px 5px 10px;
+    justify-content: space-between;
     padding: 10px;
 }
 
@@ -110,5 +111,15 @@ h1 {
 }
 
 aside ul li {
-    line-height: 0.5em;
+    line-height: 1em;
+    padding: 3px;
+    margin: 3px;
+    background: #eca;
+    text-align: left;
+    justify-content: space-around;
+    display: block;
+}
+
+aside ul li a {
+   color: darkblue; 
 }
