@@ -35,9 +35,21 @@
 	    </header>
 	    <main>
 		<div class="main-containter">
+
+		    <div class="imageset-wrapper">
+			<div class="image-wrapper">
+			    <img src="Images/profile.png" alt="kader arnold">
+			</div>
+
+			<div class="image-wrapper">
+			    <img src="Images/profile2.png" alt="still kader.">
+			</div>
+		    </div>
+
 		    <article>
-		    <h3 id="author-note">About The Author</h3>
-		    <p>Kader Arnold was born in Bryn Mawr, Pennsylvania- initially under the name Abdul Quadir Muhaiyadeeen Arnold. When he was 6 years old his parents decided to change his name to the phoenetic pronunciation of the arabic name (rhymes with water). Kader is an inventor, investor, and entrepeneur and recieved little formal schooling. He is versed predominantly in unix-based operating systems, full-stack web development, the C programming language, music theory, composition, and the like. Kader also has interests along the lines of Wine, Restaurenteurs, and microeconomic catalysts.</p>
+
+			<h3 id="author-note">About The Author</h3>
+			<p>Kader Arnold was born in Bryn Mawr, Pennsylvania- initially under the name Abdul Quadir Muhaiyadeeen Arnold. When he was 6 years old his parents decided to change his name to the phoenetic pronunciation of the arabic name (rhymes with water). Kader is an inventor, investor, and entrepeneur and recieved little formal schooling. He is versed predominantly in unix-based operating systems, full-stack web development, the C programming language, music theory, composition, and the like. Kader also has interests along the lines of Wine, Restaurenteurs, and microeconomic catalysts.</p>
 		    </article>
 
 		    <aside class="aside">
@@ -55,6 +67,14 @@
 		    
 		    
 		</div>
+		<form action="onform.php" method="POST">
+		    <legend><p>Email's Welcome :)</p></legend>
+		    <fieldset id="email-form">
+		        Name: <input required name="fullname" id="fullname" type="text">
+		        Email: <input required name="email" id="email" type="email">
+		        <input id="submit" name="submit" value="submit" type="submit">
+		    </fieldset>
+		</form>
 	    </main>
 	    
 	    <footer>
